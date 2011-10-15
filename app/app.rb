@@ -12,7 +12,9 @@ def main
   PidFile.ensure_not_already_running
   PidFile.store
   ## DO STUFF HERE
-  sleep(10)
+  
+  
+  ## Cleanup
   PidFile.delete
   DEFAULT_LOGGER.info "ALL DONE!"
 end
