@@ -4,3 +4,4 @@ tmp/*
 log/*
 db/*
 config/pidfile
+Gemfile.lock
