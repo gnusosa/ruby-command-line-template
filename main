@@ -2,4 +2,4 @@
 
 #I'm just a handy script which can be called as an executable
 @@starting_dir = Dir.pwd
-require "#{File.dirname(File.realpath(__FILE__))}/app.rb"
+require "#{File.dirname(File.realpath(__FILE__))}/app/app.rb"

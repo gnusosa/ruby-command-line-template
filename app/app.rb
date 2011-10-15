@@ -1,7 +1,7 @@
 ## This is a tempalte framework for command-line rails applications
 ## Evan Tahler | 2011
 
-require "#{File.dirname(File.realpath(__FILE__))}/config/initializers/rails_env"
+require "#{File.dirname(File.realpath(__FILE__))}/../config/initializers/rails_env"
 %w(gems logging models).each do |initializer|
   require "#{RAILS_ROOT}/config/initializers/#{initializer}"
 end
