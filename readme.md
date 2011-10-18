@@ -6,9 +6,9 @@
 Hi! I am a simple template project that will make it easy to create command line applications in ruby.  
 
 I set up support for the following libraries:
-- bundler / gems
-- active support
-- rSpec
+* bundler / gems
+* active support
+* rSpec
 
 Features:
 * really minimal project
