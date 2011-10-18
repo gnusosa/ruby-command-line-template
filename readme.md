@@ -11,18 +11,18 @@ I set up support for the following libraries:
 - rSpec
 
 Features:
-- really minimal project
-- ensure that only once instance of this application is running at a time (if I were to be scheduled by cron)
-- logging
-- familiar rails-like project structure
+* really minimal project
+* ensure that only once instance of this application is running at a time (if I were to be scheduled by cron)
+* logging
+* familiar rails-like project structure
 
 ## Use
 
 # Setup
-- gem install bundler
-- bundle install
+* gem install bundler
+* bundle install
 
 # Running the application
-- ./main
+* ./main
 
 # Running the tests
